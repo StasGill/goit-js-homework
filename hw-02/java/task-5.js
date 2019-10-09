@@ -4,14 +4,8 @@
 
 // let words = string.split(' ');
 
-// if (words.includes('spam'|| 'sale')){
-//   words = false
-// } else {
-//   words = true
-// }
-
-
-// return words
+// if (words.includes('spam') || words.includes('sale')) return true
+// return false
 // }
 
 

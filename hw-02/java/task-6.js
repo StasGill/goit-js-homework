@@ -1,28 +1,28 @@
 
-const numbers = [];
-let input;
+// const numbers = [];
+// let input;
 
  
-do {
-  input = prompt('Type some number');
-  numbers.push(+input);
+// do {
+//   input = prompt('Type some number');
+//   numbers.push(+input);
 
 
-} while( input !== null)
+// } while( input !== null)
 
 
-function logItems(arrays) {
+// function logItems(arrays) {
   
-  let total = 0;
+//   let total = 0;
 
-  for (let i = 0; i < arrays.length ; i += 1) {
-      total += arrays[i] 
-    }
-  return total
-}
+//   for (let i = 0; i < arrays.length ; i += 1) {
+//       total += arrays[i] 
+//     }
+//   return  `'Total number was ${total}'`
+// }
 
 
-    console.log(logItems(numbers));
+//     console.log(logItems(numbers));
 
 
 
