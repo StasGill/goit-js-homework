@@ -1,9 +1,8 @@
 // const total=50;
-// const ordered=50;
+// const ordered=45;
 
-// if (total >= ordered) {
-//   console.log("Заказ оформлен, с вами свяжется менеджер");
-// }
-// else {
-//   console.log("На складе недостаточно товаров!");
-// }
+
+
+// let res = total >= ordered ? alert("Заказ оформлен, с вами свяжется менеджер") : alert("На складе недостаточно товаров!"); 
+// console.log(res);
+
