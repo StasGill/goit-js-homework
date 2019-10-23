@@ -169,7 +169,11 @@
 // let newOutput  = document.getElementById('name-output');
 
 // newInput.addEventListener('input',function (e)  {
-//   newOutput.textContent = e.target.value 
+  
+//   if (e.target.value === "") {
+//     newOutput.textContent = "незнакомец"
+//   }
+//   else {newOutput.textContent = e.target.value }
 // })
 
 // =====================================TASK 6====================================================
