@@ -1,0 +1,53 @@
+button {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 50px;
+  background-color: rgba(146, 130, 248, 0.9);
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: white;
+  border: 0.5px solid grey;
+  cursor: pointer;
+  outline: none;
+}
+
+.supbut {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+body {
+  width: 100%;
+}
+
+button:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  box-shadow:    3px 3px 5px 6px #ccc;
+}
+#timer-1 {
+  width: 600px;
+  display: flex;
+  margin: 0 auto;
+}
+.field {
+  width: 120px;
+  height: 100px;
+  background-color: rgba(146, 130, 248, 0.9);
+  margin: 10px;
+  /* font-family: 'Liu Jian Mao Cao', cursive; */
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.field:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  box-shadow:    3px 3px 5px 6px #ccc;
+}
