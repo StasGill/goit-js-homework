@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  color: white;
+}
+h1 {
+  font-size: 30px;
+}
+input {
+  width: 400px;
+  height: 50px;
+
+  font-size: 30px;
+  font-family: 'Staatliches', cursive;
+  background-color: rgb(206, 206, 206);
+}
+
+body {
+  font-family: 'Staatliches', cursive;
+    background-color: rgb(82, 82, 82);
+
+  /* background-image: url('images/vector-polka-background-with-small-dots_1017-13972.jpg'); */
+}
+ul {
+  list-style: none;
+}
+
+.countryItems {
+  list-style: none;
+}
+.country{
+  width: 380px;
+  display: flex;
+  margin: 0 auto 30px auto;
+}
+.countryDescr{
+  text-align: left;
+  /* width: 300px;
+  height: 300px; */
+  margin: 0 20px;
+  padding: 0;
+}
+.countryList{
+  padding: 0;
+}
